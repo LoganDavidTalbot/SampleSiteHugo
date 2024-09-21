@@ -18,10 +18,10 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
-      - name: Install apt-utils
-        run: sudo apt-get update && sudo apt-get install -y apt-utils
-      - name: Add Safe Directory
-        run: git config --global --add safe.directory /github/workspace
+      #- name: Install apt-utils
+      #  run: sudo apt-get update && sudo apt-get install -y apt-utils
+      #- name: Add Safe Directory
+      #  run: git config --global --add safe.directory /github/workspace
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -37,6 +37,7 @@ jobs:
           ###### End of Repository/Build Configurations ######
         env:
           HUGO_VERSION: 0.134.2
+          PRE_BUILD_COMMAND: git config --global --add safe.directory /github/workspace
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
