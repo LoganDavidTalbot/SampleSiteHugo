@@ -19,13 +19,13 @@ module:
   - path: 'github.com/imfing/hextra'
 
 defaultContentLanguage: en
-languages:
-  en:
-    languageName: English
-    weight: 1
-  fr:
-    languageName: Français
-    weight: 2
+# languages:
+#   en:
+#     languageName: English
+#     weight: 1
+#   fr:
+#     languageName: Français
+#     weight: 2
 
 markup:
   goldmark:
