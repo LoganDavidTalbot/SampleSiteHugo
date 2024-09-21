@@ -1,6 +1,7 @@
 baseURL: 'https://example.org/'
 languageCode: 'en-us'
 title: 'App Modernization Hub'
+IsMultilingual: true
 
 enableRobotsTXT: true
 enableGitInfo: true
