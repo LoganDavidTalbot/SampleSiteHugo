@@ -1,4 +1,14 @@
 {
-    "route": "/docs*",
-    "allowedRoles": ["authenticated"]
+  "routes": [
+    {
+      "route": "/*",
+      "allowedRoles": ["authenticated"]
+    }
+  ],
+  "responseOverrides": {
+    "401": {
+      "statusCode": 302,
+      "redirect": "/.auth/login/aad"
+    }
+  }
 }
