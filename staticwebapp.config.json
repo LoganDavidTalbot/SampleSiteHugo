@@ -1,4 +1,4 @@
 {
-    "route": "/doc*",
+    "route": "/docs*",
     "allowedRoles": ["authenticated"]
 }
