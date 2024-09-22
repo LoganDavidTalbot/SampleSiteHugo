@@ -11,9 +11,6 @@ site:
 # services:
 #   googleAnalytics:
 #     ID: G-MEASUREMENT_ID
-
-disableSidebar: false
-
 module:
   imports:
   - path: 'github.com/imfing/hextra'
