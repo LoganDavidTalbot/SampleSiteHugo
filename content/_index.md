@@ -5,14 +5,15 @@ layout: hextra-home
 
 {{< hextra/hero-badge >}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>Cloud & Custom Applications</span>
+  <span>Sample site! Content is NOT in use.</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  CCA&nbsp;<br class="sm:hx-block hx-hidden" />App Modernization Offer
+  <img src="images/amh-banner-light-banner.png" alt="Hextra" class="hx-w-[1.5em] hx-h-[1.5em] hx-ml-2 hx-mb-1" />
 {{< /hextra/hero-headline >}}
+  
 </div>
 
 <div class="hx-mb-12">
