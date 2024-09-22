@@ -34,16 +34,16 @@ layout: hextra-home
     title="Clear Documentation"
     subtitle="Text"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="images/home/image1.jpg"
+    image="images/index/image1.jpg"
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(	0, 112, 173,0.4),hsla(0,0%,100%,0));"
-  >}}
+  >}} 
   {{< hextra/feature-card
     title="AI-powered"
     icon="sparkles"
     subtitle="Text"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
-    image="images/home/image3.jpg"
+    image="images/index/image3.jpg"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(	0, 112, 173,0.4),hsla(0,0%,100%,0));"
   >}}
@@ -51,7 +51,7 @@ layout: hextra-home
     title="Header"
     subtitle="Text"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="images/home/image2.jpg"
+    image="images/index/image2.jpg"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(	0, 112, 173,0.4),hsla(0,0%,100%,0));"
   >}}
