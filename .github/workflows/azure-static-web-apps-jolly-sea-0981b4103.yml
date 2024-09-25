@@ -26,6 +26,10 @@ jobs:
           tokenPrefix: '#{'
           tokenSuffix: '}#'
           files: '["**/*.json"]'
+        env:
+          TENANT_ID: ${{ secrets.TENANT_ID }}
+          ENTRA_ID_CLIENT_ID: ${{ secrets.ENTRA_ID_CLIENT_ID }}
+          ENTRA_ID_CLIENT_SECRET: ${{ secrets.ENTRA_ID_CLIENT_SECRET }}
           
       - name: Build And Deploy
         id: builddeploy
